@@ -7,8 +7,7 @@
         </nuxt-link>
       </div>
       <nav class="navbar__nav">
-        <nuxt-link to="/">Home</nuxt-link>
-        <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/" exact>Home</nuxt-link>
         <nuxt-link to="/jokes">Jokes</nuxt-link>
       </nav>
     </div>
@@ -50,6 +49,10 @@
 
 .navbar__nav a {
   display: inline-block;
+}
+
+.navbar__nav a.nuxt-link-active {
+  font-weight: bold;
 }
 
 .navbar__nav a:not(:last-child) {
