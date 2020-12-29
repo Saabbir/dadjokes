@@ -1,0 +1,20 @@
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a.nuxt-link-exact-active {
+  color: #3b8070;
+  text-decoration: underline;
+}
+
+.page-content {
+  margin: 2rem 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
