@@ -23,7 +23,7 @@
 <style scoped>
 
 .navbar {
-  padding: 1rem;
+  padding: 1rem 0;
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
 }

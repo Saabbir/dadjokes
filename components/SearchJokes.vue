@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="input-container">
     <input type="text" placeholder="Search jokes..." @input="handleSearch">
   </div>
 </template>
@@ -19,5 +19,11 @@
   input {
     border: 1px dotted #ccc;
     padding: .5rem 1rem;
+  }
+  @media (max-width: 767px) {
+    .input-container,
+    input {
+      width: 100%;
+    }    
   }
 </style>

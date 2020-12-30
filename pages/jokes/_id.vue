@@ -42,9 +42,8 @@
     methods: {
       async getRandomJoke() {
         try {
-          const response = await fetch('https://icanhazdadjoke.com/', config)
-          const data = await response.json()
-          this.randomJoke = data.joke
+          const response = await this.$axios.get('https://icanhazdadjoke.com/', config)
+          this.randomJoke = response.data.joke
         } catch (error) {
           console.log(error.message)
         }

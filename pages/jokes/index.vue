@@ -8,7 +8,7 @@
       <ul class="jokes-list">
         <Joke v-for="joke in filteredJokes" :key="joke.id" :joke="joke" />
       </ul>
-      <div v-if="!filteredJokes.length" class="text-center mt-3 no-jokes-box">
+      <div v-if="!filteredJokes.length" class="text-center mt-1 no-jokes-box">
         <p>No jokes to display</p>
       </div>
     </div>
@@ -92,5 +92,15 @@
     justify-content: center;
     padding: 1rem;
     border: 1px dotted #ccc;
+  }
+
+  @media (max-width: 767px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .flex-container h1 {
+      margin-bottom: 1rem;
+    }
   }
 </style>

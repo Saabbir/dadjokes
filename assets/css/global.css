@@ -90,6 +90,7 @@ img {
 .container {
   max-width: 600px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .joke {
@@ -104,6 +105,12 @@ img {
   font-weight: bold;
 }
 
+@media (max-width: 499px) {
+  .joke--single {
+    font-size: 2rem;
+  }
+}
+
 .text-center {
   text-align: center;
 }
@@ -114,4 +121,8 @@ img {
 
 .mt-3 {
   margin-top: 3rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
