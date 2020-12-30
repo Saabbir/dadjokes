@@ -16,8 +16,6 @@
 </template>
 
 <script>/* eslint-disable */
-  import SearchJokes from '~/components/SearchJokes.vue';
-  import Joke from '~/components/Joke.vue';
   const config = {
     headers: {
       Accept: 'application/json'
@@ -36,10 +34,6 @@
           }
         ]
       }
-    },    
-    components: {
-      Joke,
-      SearchJokes
     },
     data() {
       return {
