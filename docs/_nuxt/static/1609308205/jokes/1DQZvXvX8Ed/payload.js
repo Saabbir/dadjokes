@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/jokes/1DQZvXvX8Ed", {data:[{joke:{id:"1DQZvXvX8Ed",joke:"My first time using an elevator was an uplifting experience. The second time let me down.",status:200}}],fetch:[],mutations:void 0});

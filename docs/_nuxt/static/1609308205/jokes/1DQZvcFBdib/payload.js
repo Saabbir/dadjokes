@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/jokes/1DQZvcFBdib", {data:[{joke:{id:"1DQZvcFBdib",joke:"To be Frank, I'd have to change my name.",status:200}}],fetch:[],mutations:void 0});

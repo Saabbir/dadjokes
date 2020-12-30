@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/jokes/1DIRSfx51Dd", {data:[{joke:{id:"1DIRSfx51Dd",joke:"Why do birds fly south for the winter? Because it's too far to walk.",status:200}}],fetch:[],mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/jokes/0wcFBQfiGBd", {data:[{joke:{id:"0wcFBQfiGBd",joke:"Did you hear the joke about the wandering nun? She was a roman catholic.",status:200}}],fetch:[],mutations:void 0});

@@ -4,7 +4,7 @@ export default {
 
   // https://nuxtjs.org/docs/2.x/directory-structure/dist/#the-dir-property
   generate: {
-    dir: 'docs'
+    dir: 'dist'
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)

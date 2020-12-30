@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/jokes/0oz51ozk3ob", {data:[{joke:{id:"0oz51ozk3ob",joke:"A steak pun is a rare medium well done.",status:200}}],fetch:[],mutations:void 0});
