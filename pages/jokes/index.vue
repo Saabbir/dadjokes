@@ -1,17 +1,30 @@
 <template>
   <div class="page-content">
     <div class="container">
-      <h1>Dad jokes</h1>
+      <div class="flex-container">
+        <h1>Dad jokes</h1>
+        <SearchJokes @search="setSearchText" />
+      </div>
       <ul class="jokes-list">
-        <Joke v-for="joke in jokes" :key="joke.id" :joke="joke" />
+        <Joke v-for="joke in filteredJokes" :key="joke.id" :joke="joke" />
       </ul>
+      <div v-if="!filteredJokes.length" class="text-center mt-3 no-jokes-box">
+        <p>No jokes to display</p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>/* eslint-disable */
+  import SearchJokes from '~/components/SearchJokes.vue';
   import Joke from '~/components/Joke.vue';
+  const config = {
+    headers: {
+      Accept: 'application/json'
+    }
+  }  
   export default {
+    name: 'Jokes',
     head() {
       return {
         title: 'Dad Jokes',
@@ -25,15 +38,27 @@
       }
     },    
     components: {
-      Joke
+      Joke,
+      SearchJokes
+    },
+    data() {
+      return {
+        searchText: ''
+      }
+    },
+    methods: {
+      setSearchText(searchText) {
+        this.searchText = searchText
+      }
+    },
+    computed: {
+      filteredJokes() {
+        return this.jokes.filter(joke => {
+          return joke.joke.includes(this.searchText)
+        })
+      }
     },
     async asyncData({ $axios }) {
-      const config = {
-        headers: {
-          Accept: 'application/json'
-        }
-      }
-
       try {
         const response = await $axios.get('https://icanhazdadjoke.com/search', config)
       
@@ -42,12 +67,11 @@
         }        
       } catch (error) {
         console.log(error.message)
-
         return {
           jokes: []
-        }
+        }        
       }
-    },
+    },    
   }
 </script>
 
@@ -56,5 +80,17 @@
     margin: 0;
     padding: 0;
     list-style: none;
+  }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .no-jokes-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px dotted #ccc;
   }
 </style>
