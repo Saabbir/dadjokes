@@ -1,10 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/07026e35-dfeb-4b95-93d1-2ebc8fb32788/deploy-status)](https://app.netlify.com/sites/saabbir-dadjokes/deploys)
-
 # Dad Jokes
 
 Playing with nuxtjs and https://icanhazdadjoke.com/ api.
 
-Demo can be seen in here - https://saabbir-dadjokes.netlify.app/
+Demo can be seen in here - https://saabbir.github.io/dadjokes/
 
 ## Things I learned by doing this project
 
