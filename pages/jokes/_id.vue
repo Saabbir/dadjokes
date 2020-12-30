@@ -49,15 +49,15 @@
         }
       }
     },
-    async asyncData({ $axios, params }) {
+    async asyncData({ $axios, params, error }) {
       try {
         const response = await $axios.get('https://icanhazdadjoke.com/j/' + params.id, config)
       
         return {
           joke: response.data
         }        
-      } catch (error) {
-        console.log(error.message)
+      } catch (e) {
+        error(e)
       }
     },
   }

@@ -52,18 +52,15 @@
         })
       }
     },
-    async asyncData({ $axios }) {
+    async asyncData({ $axios, error }) {
       try {
         const response = await $axios.get('https://icanhazdadjoke.com/search', config)
       
         return {
           jokes: response.data.results
         }        
-      } catch (error) {
-        console.log(error.message)
-        return {
-          jokes: []
-        }        
+      } catch (e) {
+        error(e)       
       }
     },    
   }
