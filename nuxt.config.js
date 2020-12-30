@@ -2,9 +2,14 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
-  // https://nuxtjs.org/docs/2.x/directory-structure/dist/#the-dir-property
+  // Consult https://nuxtjs.org/docs/2.x/directory-structure/dist/#the-dir-property
   generate: {
-    dir: 'dist'
+    dir: 'docs'
+  },
+
+  /// Consult https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-router#base
+  router: {
+    base: '/dadjokes/'
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
