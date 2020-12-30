@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/18h3wcU8xAd", {data:[{joke:{id:"18h3wcU8xAd",joke:"Why did the kid cross the playground? To get to the other slide.",status:200}}],fetch:[],mutations:void 0});

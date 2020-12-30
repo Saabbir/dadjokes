@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/1Dt4M7Ufaxc", {data:[{joke:{id:"1Dt4M7Ufaxc",joke:"Slept like a log last night … woke up in the fireplace.",status:200}}],fetch:[],mutations:void 0});

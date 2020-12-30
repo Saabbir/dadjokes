@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/1T01LBXLuzd", {data:[{joke:{id:"1T01LBXLuzd",joke:"Why does a Moon-rock taste better than an Earth-rock? Because it's a little meteor.",status:200}}],fetch:[],mutations:void 0});
