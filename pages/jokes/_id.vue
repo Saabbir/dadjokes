@@ -41,6 +41,11 @@
     },
     methods: {
       async getRandomJoke() {
+        // Consult https://nuxtjs.org/docs/2.x/concepts/context-helpers#controlling-the-loading-bar
+        this.$nextTick(() => {
+          this.$nuxt.$loading.start()
+          setTimeout(() => this.$nuxt.$loading.finish(), 500)
+        })
         try {
           const response = await this.$axios.get('https://icanhazdadjoke.com/', config)
           this.randomJoke = response.data.joke
