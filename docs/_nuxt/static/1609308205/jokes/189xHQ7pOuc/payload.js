@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/189xHQ7pOuc", {data:[{joke:{id:"189xHQ7pOuc",joke:"What creature is smarter than a talking parrot? A spelling bee.",status:200}}],fetch:[],mutations:void 0});

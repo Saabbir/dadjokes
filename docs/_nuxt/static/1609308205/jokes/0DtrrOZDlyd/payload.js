@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/0DtrrOZDlyd", {data:[{joke:{id:"0DtrrOZDlyd",joke:"Chances are if you' ve seen one shopping center, you've seen a mall.",status:200}}],fetch:[],mutations:void 0});

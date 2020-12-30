@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/08EQZ8EQukb", {data:[{joke:{id:"08EQZ8EQukb",joke:"Did you hear about the guy whose whole left side was cut off? He's all right now.",status:200}}],fetch:[],mutations:void 0});

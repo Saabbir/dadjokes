@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/0ozAXv4Mmjb", {data:[{joke:{id:"0ozAXv4Mmjb",joke:"Why did the tomato blush? Because it saw the salad dressing.",status:200}}],fetch:[],mutations:void 0});

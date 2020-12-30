@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/0189hNRf2g", {data:[{joke:{id:"0189hNRf2g",joke:"I'm tired of following my dreams. I'm just going to ask them where they are going and meet up with them later.",status:200}}],fetch:[],mutations:void 0});

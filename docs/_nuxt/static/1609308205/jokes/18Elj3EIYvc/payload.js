@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/18Elj3EIYvc", {data:[{joke:{id:"18Elj3EIYvc",joke:"I'll tell you what often gets over looked... garden fences.",status:200}}],fetch:[],mutations:void 0});

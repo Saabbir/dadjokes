@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/1DQZDY0gVnb", {data:[{joke:{id:"1DQZDY0gVnb",joke:"What is a centipedes's favorite Beatle song?  I want to hold your hand, hand, hand, hand...",status:200}}],fetch:[],mutations:void 0});

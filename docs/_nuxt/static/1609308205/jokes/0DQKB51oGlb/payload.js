@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/jokes/0DQKB51oGlb", {data:[{joke:{id:"0DQKB51oGlb",joke:"What did one nut say as he chased another nut?  I'm a cashew!",status:200}}],fetch:[],mutations:void 0});
